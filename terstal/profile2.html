@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mijn Profiel Pagina</title>
+    <!-- Bootstrap CSS -->
+    <link href="../css/awesome-bootstrap-checkbox.css" rel="stylesheet">
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <link href="../css/terstal.css" rel="stylesheet">
+    <link href="../css/build.css" rel="stylesheet">
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="../js/main.js"></script>
+
+</head>
+<body>
+
+<div class="container" >
+    <div class="row">
+        <div class="body" >
+            <!-- Profile Image start Here -->
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-xs-12 pull-right">
+                    <div class="profile_image">
+                        <div class="row align-items-start">
+                            <div class="col-md-12">
+                                <div class="h"><p>Jouw gespaarde</br> punten:</p></div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <div class="m"><b>300</b></div>
+                            </div>
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col-md-12">
+                                <div class="b"><p>Nog <b>13 punten</b> voor een</br>
+                                    klantencheque t.w.v. <b>€12.50</b></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Profile Image end Here -->
+            <!-- Navbar start Here -->
+            <div class="navbar-default1">
+                <nav class="navbar navbar-default top_nav1" role="navigation">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav top_menu">
+                            <li><a href="#" >MIJN TERSTAL KLANTENKAART</a></li>
+                            <li><a href="#" >MIJN PROFIEL</a></li>
+                            <li><a href="#">MIJN DEALS</a></li>
+                            <li><a href="#" >MIJN ACTIVITEITEN</a></li>
+                            <li><a href="#" >MIJN INSTELLINGEN</a></li>
+                            <li><a href="#" >OVER MIJN TERSTAL KLANTENKAART</a></li>
+                            <li ><a href="#" style="padding-right: 0px;">FAQ</a></li>
+
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+            </div>
+            <!-- Navbar End Here -->
+
+            <div class="col-md-12">
+                <div class="link">
+                    <a>Mijn terStal Klantenkaart</a>
+                    >
+                    <a>Mijn profiel</a></br>
+                    <<a>Terug</a>
+                </div>
+            </div>
+
+            <!--  Main Content start here -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+
+                        <div class="col-md-12">
+                            <div class="profileHeader">
+                                <h3>MIJN PROFIEL<img src="../theme/src/icons/profile.png" ></h3>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-md-12">-->
+                        <div class="contentPanel">
+                            <div class="collapsePanel">
+                                <div class="contact">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">PERSOONLIJKE INFORMATIE<a href="#"></a></h3>
+                                            </div>
+                                            <div class="panel-body">
+
+                                                <form id="personal" action="" method="post" role="form">
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            <label for="voornaam"><b>Voornaam*</b></label>
+                                                            <input type="text" name="voornaam" id="voornaam" tabindex="1" class="form-control" placeholder="" value="Voornaam">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="tussenvoegsel"><b>Tussenvoegsel(s)</b></label>
+                                                            <input type="text" name="tussenvoegsel" id="tussenvoegsel" tabindex="1" class="form-control" value="">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="achternaam"><b>Achternaam</b></label>
+                                                            <input type="text" name="achternaam" id="achternaam*" tabindex="2" class="form-control" placeholder="" value="Achternaam">
+                                                        </div>
+
+
+                                                        <div class="form-group">
+                                                            <label for="geboortedatum">Geboortedatum*</label>
+                                                            <div class="input-group date">
+                                                                <input type="text" id="date" class="form-control" value="">
+                                                                <div class="input-group-addon">
+                                                                    <span class="glyphicon glyphicon-th"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group r">
+                                                            <label for="geslacht"><b>Geslacht</b></label></br>
+                                                            <div class="checkbox ">
+                                                                <input type="radio" name="radio4" id="radio7" value="option1" checked>
+                                                                <label for="radio7">
+                                                                    Vrouw
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox ">
+                                                                <input type="radio" name="radio4" id="radio8" value="option2">
+                                                                <label for="radio8">
+                                                                    Man
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-8 col-xs-12">
+                                                        <div class="ver pull-right">
+                                                            <h4>*Verplichte velden</h4>
+                                                        </div>
+
+                                                    </div>
+                                                </form>
+                                              <div class="col-md-12">
+                                                  <div class="formBtn pull-right">
+                                                      <a role="button" href="#" >Annuleren</a>
+                                                      <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                  </div>
+
+                                              </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">CONTACTDETAILS<a href="#"></a></h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <form id="contact" action="" method="post" role="form">
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            <label for="email">E-mailadres*</label>
+                                                            <input type="text" name="email" id="email" tabindex="1" class="form-control"  value="marloueggink@gmail.com">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="phone">Telefoonnummer</label>
+                                                            <input type="phone" name="" id="phone" tabindex="1" class="form-control"  value="06-41253769">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-8 col-xs-12">
+                                                        <div class="ver pull-right">
+                                                            <h4>* Verplichte velden</h4>
+                                                        </div>
+
+                                                    </div>
+                                                </form>
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">ADRESSEN<a href="#"></a></h3>
+
+                                            </div>
+                                            <div class="panel-body">
+                                                <form  id="address" action="" method="post" role="form">
+                                                    <div class="col-md-4">
+                                                        <h4>Bezorgadres</h4>
+                                                        <div class="form-group">
+                                                            <label for="street">Straat + huisnummer*</label>
+                                                            <input type="text" name="street" id="street" tabindex="1" class="form-control"  value="Beltrumseweg 8">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="postcode">Postcode*</label>
+                                                            <input type="text" name="postcode" id="postcode" tabindex="1" class="form-control"  value="7271NB">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="plaats">Plaats*</label>
+                                                            <input type="text" name="plaats" id="plaats" tabindex="1" class="form-control"  value="Borculo">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="land">Land*</label>
+                                                            <input type="text" name="land" id="land" tabindex="1" class="form-control"  value="Nederland">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <h4>Factuuradres</h4>
+                                                        <div class="form-group">
+                                                            <label for="street">Straat + huisnummer*</label>
+                                                            <input type="text" name="street" id="street" tabindex="1" class="form-control"  value="Beltrumseweg 8">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="postcode">Postcode*</label>
+                                                            <input type="text" name="postcode" id="postcode" tabindex="1" class="form-control"  value="7271NB">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="plaats">Plaats*</label>
+                                                            <input type="text" name="plaats" id="plaats" tabindex="1" class="form-control"  value="Borculo">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="land">Land*</label>
+                                                            <input type="text" name="land" id="land" tabindex="1" class="form-control"  value="Nederland">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-4 col-xs-12">
+                                                        <div class="ver pull-right">
+                                                            <h4>* Verplichte velden</h4>
+                                                        </div>
+
+                                                    </div>
+                                                </form>
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">KLANTENKAART<a href="#"></a></h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                    <div class="col-md-4">
+                                                        <div class="bar">
+                                                             <img src="../theme/src/bar.JPG">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-8 col-xs-12">
+                                                        <div class="ver pull-right">
+                                                           <!-- <h4>* Verplichte velden</h4>-->
+                                                        </div>
+
+                                                    </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">FAVORIETE WINKEL<a href="#"></a></h3>
+
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="col-md-8">
+                                                    <div class="form-group ">
+                                                        <label for="laat">Laat ons weten wat je favoriete winkel is en verdien 10 punten.</label>
+                                                        <div class="dropdown " >
+                                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Almelo
+                                                                <span class="caret"></span></button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">One</a></li>
+                                                                <li><a href="#">Two</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-xs-12">
+                                                    <div class="ver pull-right">
+                                                        <!-- <h4>* Verplichte velden</h4>-->
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">MIJZELF EN MIJN FAMILIE<a href="#"></a></h3>
+
+                                            </div>
+                                            <div class="panel-body ">
+
+                                                <div class="col-md-8">
+                                                    <label>Laat ons weten wat je gezinssituatie is en veriden 15 punten.</label>
+                                                    <div class="">
+                                                        <div class="col-md-4">
+                                                            <div class="header"><img src=""></div>
+                                                            <div class="form-group h-content">
+                                                                <p><b>MIJZELF</b></p>
+                                                                <p>Marlou Eggink</p>
+                                                                <p>Vrouw</p>
+                                                                <p>26-06-1990</p>
+                                                                <div class="db-button">
+                                                                    <p>Kledingmaat</p>
+                                                                    <div class="dropdown " >
+                                                                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">M
+                                                                            <span class="caret"></span></button>
+                                                                        <ul class="dropdown-menu">
+                                                                            <li><a href="#">M</a></li>
+                                                                            <li><a href="#">F</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <p>Schoenmaat</p>
+                                                                    <div class="dropdown " >
+                                                                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">38
+                                                                            <span class="caret"></span></button>
+                                                                        <ul class="dropdown-menu">
+                                                                            <li><a href="#">38</a></li>
+                                                                            <li><a href="#">39</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="col-md-4">
+                                                                <div class="header"><img src=""></div>
+                                                                <div class="h2-content">
+                                                                    <input type="text" class="" value="Liza">
+                                                                    <input type="text" class="" placeholder="Tussenvoegsel(s)">
+                                                                    <input type="text" class="" value="Eggink">
+                                                                    <div class="db-button">
+                                                                        Geboortedatum
+                                                                        <input type="text" class="" placeholder="12/02/2016">
+                                                                        Kledingmaat
+                                                                        <div class="dropdown " >
+                                                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">92
+                                                                                <span class="caret"></span></button>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li><a href="#">92</a></li>
+                                                                                <li><a href="#">22</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        Schoenmaat
+                                                                        <div class="dropdown" >
+                                                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">22
+                                                                                <span class="caret"></span></button>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li><a href="#">38</a></li>
+                                                                                <li><a href="#">39</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="col-md-4">
+                                                                <div class="header"><img src=""></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <label>Voor wie koop jij, naast voor jezelf, de kleding?</label>
+                                                        <div class="checkbox" >
+                                                            <input id="checkbox-man" class="styled" type="checkbox" >
+                                                            <label for="checkbox-man">
+                                                                Man
+                                                            </label>
+                                                        </div>
+                                                        <div class="checkbox" >
+                                                            <input id="checkbox-vrouw" class="styled" type="checkbox" >
+                                                            <label for="checkbox-vrouw">
+                                                                Vrouw
+                                                            </label>
+                                                        </div>
+                                                        <div class="checkbox" >
+                                                            <input id="checkbox-kinderen" class="styled" type="checkbox" >
+                                                            <label for="checkbox-kinderen">
+                                                                Kinderen
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 ">
+                                                    <div class="ver pull-right">
+                                                       <!-- <h4>* Verplichte velden</h4>-->
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">MIJN INTERESSES<a href="#"></a></h3>
+
+                                            </div>
+                                            <div class="panel-body ">
+                                                <div class="col-md-8">
+                                                    <label for="laat">Laat ons weten wat jouw interesses zijn en verdien 5 punten.</label>
+                                                    <div class="form-group">
+
+                                                        <div class="col-md-3">
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-n" class="styled" type="checkbox" >
+                                                                <label for="checkbox-n">
+                                                                    Nieuwe collectie
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-a" class="styled" type="checkbox" >
+                                                                <label for="checkbox-a">
+                                                                    Acties
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-u" class="styled" type="checkbox" >
+                                                                <label for="checkbox-u">
+                                                                    Uitverkoop
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-5">
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-v" class="styled" type="checkbox" >
+                                                                <label for="checkbox-v">
+                                                                    Vaste klanten koopavond
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-k" class="styled" type="checkbox" >
+                                                                <label for="checkbox-k">
+                                                                    Klantenkaart
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-s" class="styled" type="checkbox" >
+                                                                <label for="checkbox-s">
+                                                                    Sale
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 ">
+                                                    <div class="ver pull-right">
+                                                        <!--<h4>* Verplichte velden</h4>-->
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">MIJN FAVORIETE PRODUCTGROEPEN<a href="#"></a></h3>
+
+                                            </div>
+                                            <div class="panel-body ">
+                                                <div class="col-md-8">
+                                                    <label for="laat">Laat ons weten wat jouw favoriete productgroepen zijn en verdien 20 punten.</label>
+                                                    <div class="form-group">
+
+                                                        <div class="col-md-3">
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-bh" class="styled" type="checkbox" >
+                                                                <label for="checkbox-bh">
+                                                                    BH's
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox" >
+                                                            <input id="checkbox-bikini" class="styled" type="checkbox" >
+                                                            <label for="checkbox-bikini">
+                                                                Bikini's
+                                                            </label>
+                                                        </div>
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-s" class="styled" type="checkbox" >
+                                                                <label for="checkbox-s">
+                                                                    Broeken
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-5">
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-Bermuda" class="styled" type="checkbox" >
+                                                                <label for="checkbox-Bermuda">
+                                                                    Bermuda's
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-bl" class="styled" type="checkbox" >
+                                                                <label for="checkbox-bl">
+                                                                    Blouses
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-etc" class="styled" type="checkbox" >
+                                                                <label for="checkbox-etc">
+                                                                    etc...
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 ">
+                                                    <div class="ver pull-right">
+                                                        <!--<h4>* Verplichte velden</h4>-->
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <span class="pull-left"><img src="../theme/src/icons/downarrow.png" /></span><h3 class="panel-title">MIJN FAVORIETE KLEUREN<a href="#"></a></h3>
+
+                                            </div>
+                                            <div class="panel-body">
+
+                                                <div class="col-md-8">
+                                                    <label for="laat">Laat ons weten wat jouw favoriete kleuren zijn en verdien 10 punten.</label>
+                                                    <div class="form-group">
+
+                                                        <div class="col-md-3">
+                                                            <div class="checkbox" >
+                                                                <input id="checkbox-wit" class="styled" type="checkbox" >
+                                                                <label for="checkbox-wit">
+                                                                    Wit
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox checkbox-roze" >
+                                                                <input id="checkbox-roze" class="styled" type="checkbox" >
+                                                                <label for="checkbox-roze">
+                                                                    Roze
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox checkbox-legergroen" >
+                                                                <input id="checkbox-legergroen" class="styled" type="checkbox" >
+                                                                <label for="checkbox-legergroen">
+                                                                    Legergroen
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-5">
+
+                                                            <div class="checkbox checkbox-lichtblauw" >
+                                                                <input id="checkbox-lichtblauw" class="styled" type="checkbox" >
+                                                                <label for="checkbox-lichtblauw">
+                                                                    Lichtblauw
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox checkbox-black" >
+                                                                <input id="checkbox-black" class="styled" type="checkbox" >
+                                                                <label for="checkbox-black">
+                                                                    Zwart
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox checkbox-yellow" >
+                                                                <input id="checkbox-yellow" class="styled" type="checkbox" >
+                                                                <label for="checkbox-yellow">
+                                                                    etc...
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 ">
+                                                    <div class="ver pull-right">
+                                                        <!--<h4>* Verplichte velden</h4>-->
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="formBtn pull-right">
+                                                        <a role="button" href="#" >Annuleren</a>
+                                                        <button class="btn btn-warning" >Opslaan  <i class="fa fa-play"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- collapsePanel End Here -->
+
+                            </div>
+
+                        </div>
+                        <!-- </div>-->
+
+                    </div>
+                </div>
+            </div>
+            <!--  Main Content end here -->
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+
+</body>
+</html>
